@@ -287,7 +287,7 @@ HistoryTextCacheSize={{ server_historytextcachesize }}
 ValueCacheSize={{ server_valuecachesize }}
 {% endif %}
 
-{% if zabbix_short_version <= '24' %}
+{% if zabbix_short_version <= '22' %}
 ### option: nodenoevents
 #	if set to '1' local events won't be sent to master node.
 #	this won't impact ability of this node to propagate events from its child nodes.
